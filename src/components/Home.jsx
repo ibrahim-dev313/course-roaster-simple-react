@@ -7,7 +7,9 @@ const Home = () => {
 
 
     const [cards, setCards] = useState([])
-    const [selectedCourse, setSelectedCourse]=useState([])
+    const [selectedCourse, setSelectedCourse] = useState([])
+    const [credits, setTotalCredits] = useState(0)
+    const [remainingCredits, setRemainingCredits] = useState(20)
 
 
     useEffect(() => {
@@ -19,7 +21,15 @@ const Home = () => {
 
     const handleSelectCourse = (course) => {
         // console.log(course);
-        setSelectedCourse([...selectedCourse, course])
+        const doesExist = selectedCourse.find(i => i.id == course.id)
+        let creditCount = course.credit_hours;
+
+        // console.log(doesExist);
+        if (doesExist) {
+            return alert('booked')
+        } else {
+            setSelectedCourse([...selectedCourse, course])
+        }
     }
     // console.log(selectedCourse);
 
@@ -56,7 +66,7 @@ const Home = () => {
                             }
                         </div>
                     </div>
-                    <Cart selectedCourse={selectedCourse}></Cart>
+                    <Cart selectedCourse={selectedCourse} remainingCredits={remainingCredits} credits={credits}></Cart>
 
 
                 </div>
