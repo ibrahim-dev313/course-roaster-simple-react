@@ -63,14 +63,14 @@ const Home = () => {
                             {
                                 cards.map((card) => (
                                     <div key={card.id} className="shadow-xl card bg-base-100">
-                                        <div className="flex items-center justify-center px-8 py-8 m-3 bg-neutral-100 rounded-xl">
-                                            <img src="https://i.ibb.co/JKJkXSm/rc.png" alt="Shoes" className="" />
+                                        <div className="flex items-center justify-center m-3 bg-neutral-100 rounded-xl">
+                                            <img src={card.image_url} alt="Course" className="w-full" />
                                         </div>
-                                        <div className="items-center px-3 m-3 py- card-body">
+                                        <div className="items-center px-1 py-1 m-3 card-body">
 
-                                            <h2 className="font-medium">{card.course_name}</h2>
+                                            <h2 className="text-xl font-bold">{card.course_name}</h2>
                                             <p className="font-light text-justify">{card.short_details}</p>
-                                            <div className='flex justify-around gap-3'>
+                                            <div className='flex justify-between w-full text-xl font-medium'>
                                                 <div>
                                                     <p>Price: {card.price}</p>
                                                 </div>
