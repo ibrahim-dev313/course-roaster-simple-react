@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "image_url": "https://i.imgur.com/1vJj4zS.jpg",
+        "course_name": "Introduction to Python",
+        "short_details": "Learn the basics of Python programming language.",
+        "price": 10000,
+        "credit_hours": 3
+    },
+    {
+        "id": 2,
+        "image_url": "https://i.imgur.com/5JQwXZG.jpg",
+        "course_name": "Web Development with Python",
+        "short_details": "Learn how to build responsive websites using HTML, CSS, and JavaScript.",
+        "price": 20000,
+        "credit_hours": 4
+    },
+    {
+        "id": 3,
+        "image_url": "https://i.imgur.com/7K9Z0vY.jpg",
+        "course_name": "Data Science with Python",
+        "short_details": "Learn how to use Python for data analysis and visualization.",
+        "price": 30000,
+        "credit_hours": 5
+    },
+    {
+        "id": 4,
+        "image_url": "https://i.imgur.com/8W8z6jR.jpg",
+        "course_name": "Machine Learning with Python",
+        "short_details": "Learn how to build machine learning models using Python.",
+        "price": 40000,
+        "credit_hours": 6
+    },
+    {
+        "id": 5,
+        "image_url": "https://i.imgur.com/9qyJ2Lp.jpg",
+        "course_name": "Artificial Intelligence with Python",
+        "short_details": "Learn how to build AI systems using Python.",
+        "price": 50000,
+        "credit_hours": 7
+    },
+    {
+        "id": 6,
+        "image_url": "",
+        "course_name": "Introduction to Java Programming",
+        "short_details": "Learn the basics of Java programming language.",
+        "price": 30000,
+        "credit_hours": 7
+    },
+    {
+        "id": 7,
+        "image_url": "https://i.imgur.com/5JQwXZG.jpg",
+        "course_name": "Web Development with ReactJS",
+        "short_details": "Learn how to build responsive websites using ReactJS.",
+        "price": 70000,
+        "credit_hours": 2
+    },
+    {
+        "id": 8,
+        "image_url": "https://i.imgur.com/7K9Z0vY.jpg",
+        "course_name": "Data Science with R Programming Language",
+        "short_details": "Learn how to use R for data analysis and visualization.",
+        "price": 35000,
+        "credit_hours": 4
+    },
+    {
+        "id": 9,
+        "image_url": "",
+        "course_name": "Introduction to C++ Programming Language",
+        "short_details": "Learn the basics of C++ programming language.",
+        "price": 58000,
+        "credit_hours": 3
+    }
+]
