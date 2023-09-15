@@ -4,7 +4,7 @@
 import React from 'react';
 
 const Cart = ({selectedCourse, remainingCredits, credits}) => {
-    console.log(remainingCredits);
+    // console.log(remainingCredits);
     return (
         <div className="lg:col-span-3">
             {/* {selectedCourse.length} */}
@@ -19,7 +19,7 @@ const Cart = ({selectedCourse, remainingCredits, credits}) => {
                         ))
                     }
                 </ol>
-                <p className="font-medium ">Total credit Hour: { }</p>
+                <p className="font-medium ">Total credit Hour: {20-remainingCredits}</p>
                 <p className="font-medium">Total Price: { } USD</p>
 
             </div>
