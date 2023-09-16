@@ -2,7 +2,7 @@
 
 Welcome to the Course Registration Website! This website is designed to help you easily register for courses and manage your academic journey. Below, you'll find information about three key features of the website, and we'll also answer a common question about how state management is handled in our React app.
 
-**Website Link:** [Course Registration Website](course-registration-2062.surge.sh)
+**Website Link:** [Course Registration Website](https://course-registration-2062.surge.sh)
 
 
 ## Features
