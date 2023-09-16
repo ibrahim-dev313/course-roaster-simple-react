@@ -2,40 +2,40 @@
     {
         "id": 1,
         "image_url": "https://i.ibb.co/f89jGj2/rc.png",
-        "course_name": "Introduction to Python",
-        "short_details": "Learn the basics of Python programming language.",
+        "course_name": "Introduction to MySQL",
+        "short_details": "Learn the basics of MySQL database management.",
         "price": 10000,
         "credit_hours": 3
     },
     {
         "id": 2,
         "image_url": "https://i.ibb.co/1dVDRz5/Rectangle-2.png",
-        "course_name": "Web Development with Python",
-        "short_details": "Learn how to build responsive websites using HTML, CSS, and JavaScript.",
+        "course_name": "OOP with Python",
+        "short_details": "Explore Object-Oriented Programming concepts using Python.",
         "price": 20000,
         "credit_hours": 4
     },
     {
         "id": 3,
         "image_url": "https://i.ibb.co/Xjz3V61/Rectangle-2-2.png",
-        "course_name": "Data Science with Python",
-        "short_details": "Learn how to use Python for data analysis and visualization.",
+        "course_name": "Data Science with C Programming",
+        "short_details": "Dive into data analysis and visualization with C.",
         "price": 30000,
         "credit_hours": 5
     },
     {
         "id": 4,
         "image_url": "https://i.ibb.co/9tkZR5p/Rectangle-2-3.png",
-        "course_name": "Machine Learning with Python",
-        "short_details": "Learn how to build machine learning models using Python.",
+        "course_name": "Algorithm 101",
+        "short_details": "Master machine learning model development in Python.",
         "price": 40000,
         "credit_hours": 6
     },
     {
         "id": 5,
         "image_url": "https://i.ibb.co/Hh6WzkD/Rectangle-2-4.png",
-        "course_name": "Artificial Intelligence with Python",
-        "short_details": "Learn how to build AI systems using Python.",
+        "course_name": "Artificial Intelligence with C++",
+        "short_details": "Build AI systems using C++.",
         "price": 50000,
         "credit_hours": 7
     },
@@ -43,31 +43,31 @@
         "id": 6,
         "image_url": "https://i.ibb.co/fY2c532/Rectangle-2-5.png",
         "course_name": "Introduction to Soft. Engineering",
-        "short_details": "Learn the basics of Java programming language.",
+        "short_details": "Get started with software engineering using Java.",
         "price": 30000,
         "credit_hours": 7
     },
     {
         "id": 7,
         "image_url": "https://i.ibb.co/zxRbjmQ/Rectangle-2-6.png",
-        "course_name": "Web Development with ReactJS",
-        "short_details": "Learn how to build responsive websites using ReactJS.",
+        "course_name": "Data Science with C Programming",
+        "short_details": "Analyze critical Data with C Programming Language.",
         "price": 70000,
         "credit_hours": 2
     },
     {
         "id": 8,
         "image_url": "https://i.ibb.co/9Tk4JJv/Rectangle-3.png",
-        "course_name": "Data Science with R Programming Language",
-        "short_details": "Learn how to use R for data analysis and visualization.",
+        "course_name": "Data Science with C Programming",
+        "short_details": "Utilize C for data analysis and visualization.",
         "price": 35000,
         "credit_hours": 4
     },
     {
         "id": 9,
         "image_url": "https://i.ibb.co/LtstWT5/Rectangle-3-1.png",
-        "course_name": "Introduction to C++ Programming Language",
-        "short_details": "Learn the basics of C++ programming language.",
+        "course_name": "Amazon Web Services 101",
+        "short_details": "Explore the basics of AWS services.",
         "price": 58000,
         "credit_hours": 3
     }

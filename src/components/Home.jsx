@@ -56,8 +56,9 @@ const Home = () => {
     return (
 
         <div className="container mx-auto">
+            <div className="my-6 text-2xl font-bold text-center">Course Registration</div>
             <div>
-                <div className='grid grid-cols-1 lg:grid-cols-12'>
+                <div className='grid grid-cols-1 gap-2 lg:grid-cols-12'>
                     <div className="col-span-9">
                         <div className="grid grid-cols-3 gap-3 card-container">
                             {
@@ -68,14 +69,14 @@ const Home = () => {
                                         </div>
                                         <div className="items-center px-1 py-1 m-3 card-body">
 
-                                            <h2 className="text-xl font-bold">{card.course_name}</h2>
+                                            <h2 className="font-bold text-md">{card.course_name}</h2>
                                             <p className="font-light text-justify">{card.short_details}</p>
                                             <div className='flex justify-between w-full text-xl font-medium'>
                                                 <div>
-                                                    <p>Price: {card.price}</p>
+                                                    <p className='flex items-center justify-center gap-1'><i className="fa-solid fa-dollar-sign fa-md "></i>Price: {card.price}</p>
                                                 </div>
                                                 <div>
-                                                    <p>Credit: {card.credit_hours}</p>
+                                                    <p className='flex items-center justify-center gap-1'><i className="fa-solid fa-book"></i>Credit: {card.credit_hours}</p>
                                                 </div>
                                             </div>
                                             <div className='grid w-full'>
