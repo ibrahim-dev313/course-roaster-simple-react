@@ -1,28 +1,64 @@
-# Course Registration Website
+# Course Registration App
 
-Welcome to the Course Registration Website! This website is designed to help you easily register for courses and manage your academic journey. Below, you'll find information about three key features of the website, and we'll also answer a common question about how state management is handled in our React app.
-
-**Website Link:** [Course Registration Website](https://course-registration-2062.surge.sh)
-
+Welcome to the Course Registration App, a React-based web application that facilitates course selection, credit hour tracking, and dynamic price calculation.
 
 ## Features
 
-### 1. User-friendly Course Selection && display of what courses are selected and their total credit hours
+- **Course Selection:** Explore available courses, view details, and select courses for registration.
+
+- **Credit Hour Tracking:** Keep tabs on remaining credit hours and the total credit hours selected.
+
+- **Price Calculation:** Dynamically calculate and display the total price of the selected courses.
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js installed on your machine
+
+### Installation
+
+1. Clone the repository:
+
+    ```bash
+    git clone <repository-url>
+    ```
+
+2. Navigate to the project directory:
+
+    ```bash
+    cd course-registration-app
+    ```
+
+3. Install dependencies:
+
+    ```bash
+    npm install
+    ```
+
+4. Start the development server:
+
+    ```bash
+    npm start
+    ```
+
+5. Open your browser and visit [http://localhost:5173](http://localhost:5173) to explore the app.
+
+## Usage
+
+- Browse and select courses from the available list.
+- View the remaining credit hours and the total credit hours selected in the Cart.
+- Observe the dynamic calculation of the total price based on the selected courses.
+
+## Technologies Used
+
+- React
+- JSX
+- React Hooks
+- Toast Notifications
+
+## Contributing
+
+Contributions are welcome! Feel free to submit issues and pull requests.
 
 
-### 2. Real Time Credit Limit Management
-
-
-### 3. Toaster Notification System
-
-
-
-## Q&A: How State Management is Managed in Our React App
-
-**Q:** How did you manage the state in your React app?
-
-**A:** - **useState Hook:** We utilize the `useState` hook to create and manage state variables. For example, we use it to track selected courses, total credits, and remaining credits.
-
-- **useEffect Hook:** We use the `useEffect` hook to fetch course data when the component mounts and update the `cards` state with the fetched data.
-
-- **Course Selection Logic:** The `handleSelectCourse` function handles course selection and state updates. It checks for duplicate selections, calculates total credits, and ensures that the credit limit is not exceeded. Error messages are displayed using toast notifications for a user-friendly experience.
