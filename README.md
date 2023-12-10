@@ -2,6 +2,10 @@
 
 Welcome to the Course Registration App, a React-based web application that facilitates course selection, credit hour tracking, and dynamic price calculation.
 
+## Live Link
+
+Visit the live app at [Course Registration App](https://course-registration-2062.surge.sh/)
+
 ## Features
 
 - **Course Selection:** Explore available courses, view details, and select courses for registration.
@@ -21,13 +25,13 @@ Welcome to the Course Registration App, a React-based web application that facil
 1. Clone the repository:
 
     ```bash
-    git clone <repository-url>
+    git clone https://github.com/ibrahim-dev313/course-roaster-simple-react.git
     ```
 
 2. Navigate to the project directory:
 
     ```bash
-    cd course-registration-app
+    cd course-roaster-simple-react
     ```
 
 3. Install dependencies:
@@ -50,6 +54,7 @@ Welcome to the Course Registration App, a React-based web application that facil
 - View the remaining credit hours and the total credit hours selected in the Cart.
 - Observe the dynamic calculation of the total price based on the selected courses.
 
+
 ## Technologies Used
 
 - React
@@ -60,5 +65,3 @@ Welcome to the Course Registration App, a React-based web application that facil
 ## Contributing
 
 Contributions are welcome! Feel free to submit issues and pull requests.
-
-
